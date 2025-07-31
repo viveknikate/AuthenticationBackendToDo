@@ -1,0 +1,26 @@
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=Production && node app",
+    "dev": "set NODE_ENV=development && nodemon app"
+  },
+
+// don't use this set things in commands, just normal
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+
+
+username: viveknikate2000
+password: HUI6aC8EUHnMULN9
+
+/*
+  retrieve these values from render site
+  add this content in env file
+    MONGO_DB_URI =
+    JWT_SECRET = 
+    NODE_ENV = 
+    PORT =  
+    FRONTEND_URL = 
+*/
